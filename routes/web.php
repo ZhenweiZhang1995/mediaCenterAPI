@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use Illuminate\Http\Request;
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Movies collection routes
+Route::get('/movies', 'MovieController@index');
+Route::post('/movies', 'MovieController@create');
+
+// Movies singular routes
+Route::get('/movies/{id}', 'MovieController@show');
+Route::put('/movies/{id}', 'MovieController@update');
+Route::delete('/movies/{id}', 'MovieController@destroy');
