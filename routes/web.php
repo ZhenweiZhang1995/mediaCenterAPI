@@ -46,5 +46,5 @@ Route::delete('/albums/{id}', 'AlbumController@destroy');
 
 // HTML/view responses
 Route::get('/', function () {
-  return view('home');
+  return view('welcome');
 });

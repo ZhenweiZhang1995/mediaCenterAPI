@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Media Center API</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -14,7 +14,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #000000;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -49,6 +49,10 @@
                 font-size: 84px;
             }
 
+            .subtitle{
+                font-size: 24px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -78,16 +82,24 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+                <div class="title">
+                    Media Center API
                 </div>
+                <br>
+                <div class="subtitle">
+                    by Zhenwei Zhang
+                </div>
+                <br>
+                <p class="m-b-md">
+                  This is a Media Center API
+                </p>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://zhenweizhang1995.gitbooks.io/media-center-api">Documentation</a>
+                    <a href="https://github.com/ZhenweiZhang1995">Gitbub</a>
+                    <a href="https://www.zhangzhenwei.com/portfolio">Portfolio</a>
+                    <!-- <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a> -->
                 </div>
             </div>
         </div>
