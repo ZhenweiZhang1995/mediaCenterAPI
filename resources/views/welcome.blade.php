@@ -91,7 +91,7 @@
                 </div>
                 <br>
                 <p class="m-b-md">
-                  This is a Media Center API
+                  Provide RESTful HTTP methods to Create/Edit/Delete Movies, Albums and Video Games.
                 </p>
 
                 <div class="links">
