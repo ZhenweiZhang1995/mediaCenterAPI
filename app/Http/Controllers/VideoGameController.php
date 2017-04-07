@@ -2,26 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\VideoGame;
+use App\Videogame;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 
-class VideoGameController extends Controller
+class VideogameController extends Controller
 {
   public function index ()
   {
     // GET /videoGames
     // list all videoGames
-    $videoGames = VideoGame::all();
-    return Response::json($videoGames);
+    $videogames = Videogame::all();
+    return Response::json($videogames);
   }
 
   public function create (Request $request)
   {
     // POST /videoGames
     // create new videoGame
-    VideoGame::create($request->all());
+    Videogame::create($request->all());
     return Response::json(['created' => true]);
   }
 
@@ -29,16 +29,16 @@ class VideoGameController extends Controller
   {
     // GET /videoGames/$id
     // show a single videoGame info
-    $videoGame = VideoGame::find($id);
-    return Response::json($videoGame);
+    $videogame = VideoGame::find($id);
+    return Response::json($videogame);
   }
 
   public function update (Request $request, $id)
   {
     // PUT /videoGame/$id
     // update a single videoGame
-    $videoGame = VideoGame::find($id);
-    $videoGame->update($request->all());
+    $videogame = Videogame::find($id);
+    $videogame->update($request->all());
     return Response::json(['updated' => true]);
   }
 
@@ -46,8 +46,8 @@ class VideoGameController extends Controller
   {
     // DELETE /videoGames/$id
     // remove a single videoGame
-    $videoGame = VideoGame::find($id);
-    $videoGame->delete();
+    $videogame = Videogame::find($id);
+    $videogame->delete();
     return Response::json(['deleted' => true]);
   }
 }

@@ -27,13 +27,13 @@ Route::put('/movies/{id}', 'MovieController@update');
 Route::delete('/movies/{id}', 'MovieController@destroy');
 
 // VideoGames collection routes
-Route::get('/videoGame', 'VideoGameController@index');
-Route::post('/videoGame', 'VideoGameController@create');
+Route::get('/videogames', 'VideogameController@index');
+Route::post('/videogames', 'VideogameController@create');
 
 // VideoGame singular routes
-Route::get('/videoGame/{id}', 'VideoGame@show');
-Route::put('/videoGame/{id}', 'VideoGameController@update');
-Route::delete('/videoGame/{id}', 'VideoGameController@destroy');
+Route::get('/videogames/{id}', 'VideogameController@show');
+Route::put('/videogames/{id}', 'VideogameController@update');
+Route::delete('/videogames/{id}', 'VideogameController@destroy');
 
 // Albums collection routes
 Route::get('/albums', 'AlbumController@index');
