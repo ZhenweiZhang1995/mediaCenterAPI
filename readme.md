@@ -1,6 +1,6 @@
 
 ## Media Center API
-- - - -
+
 Media Center API is a PHP_Laravel based API providing methods to Create_Read_Update_Delete different media including Movies, Albums and Video Games. They are achieved through RESTful HTTP methods (GET,POST,PUT,DELETE).
 
 To run and test the API on local machine,
