@@ -97,7 +97,7 @@
                 <div class="links">
                     <a href="https://zhenweizhang1995.gitbooks.io/media-center-api">Documentation</a>
                     <a href="https://github.com/ZhenweiZhang1995">Gitbub</a>
-                    <a href="https://www.zhangzhenwei.com/portfolio">Portfolio</a>
+                    <a href="http://www.zhangzhenwei.com/portfolio">Portfolio</a>
                     <!-- <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a> -->
                 </div>
